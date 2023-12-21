@@ -11,8 +11,8 @@ services:
     
     ports:
     - 27017:27017
-  volumes:
-    - ./data/dump:/dump
+    volumes:
+      - ./data/dump:/dump
 
   app:
     build: .
